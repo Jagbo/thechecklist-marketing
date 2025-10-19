@@ -3,6 +3,15 @@ import { CirclesBackground } from '@/components/CirclesBackground'
 import { Container } from '@/components/Container'
 import { Layout } from '@/components/Layout'
 
+export const metadata = {
+  title: '404 - Page Not Found',
+  description: "Sorry, we couldn't find the page you're looking for. Return to theChecklist homepage.",
+  robots: {
+    index: false,
+    follow: false,
+  },
+}
+
 export default function NotFound() {
   return (
     <Layout>
