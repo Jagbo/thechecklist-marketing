@@ -65,6 +65,14 @@ export function Footer() {
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
             &copy; {new Date().getFullYear()} theChecklist. All rights reserved.
           </p>
+          <div className="mt-6 flex gap-x-6 text-sm text-gray-500 md:mt-0">
+            <Link href="/privacy" className="hover:text-gray-900">
+              Privacy Policy
+            </Link>
+            <Link href="/delete" className="hover:text-gray-900">
+              Data Controls
+            </Link>
+          </div>
         </div>
       </Container>
     </footer>
