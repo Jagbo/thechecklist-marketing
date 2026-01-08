@@ -2,9 +2,9 @@ import { useId } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
+import { GooglePlayLink } from '@/components/GooglePlayLink'
 import { InteractiveSwipeCard } from '@/components/InteractiveSwipeCard'
 import { AppStoreLink } from '@/components/AppStoreLink'
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { PhoneFrame } from '@/components/PhoneFrame'
 
@@ -91,12 +91,8 @@ export function Hero() {
               your preferences match. Stop debating where to go—start going.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <Button href="#">
-                Download on App Store
-              </Button>
-              <Button href="#" variant="outline" color="gray">
-                Get it on Google Play
-              </Button>
+              <AppStoreLink />
+              <GooglePlayLink />
             </div>
           </div>
           <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">

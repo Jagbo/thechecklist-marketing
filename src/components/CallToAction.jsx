@@ -1,6 +1,7 @@
-import { Button } from '@/components/Button'
+import { AppStoreLink } from '@/components/AppStoreLink'
 import { CircleBackground } from '@/components/CircleBackground'
 import { Container } from '@/components/Container'
+import { GooglePlayLink } from '@/components/GooglePlayLink'
 
 export function CallToAction() {
   return (
@@ -21,12 +22,8 @@ export function CallToAction() {
             for iOS and Android.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button href="#" color="white">
-              Download on App Store
-            </Button>
-            <Button href="#" color="white">
-              Get it on Google Play
-            </Button>
+            <AppStoreLink />
+            <GooglePlayLink />
           </div>
         </div>
       </Container>

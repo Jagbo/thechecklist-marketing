@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import { Button } from '@/components/Button'
+import { AppStoreLink } from '@/components/AppStoreLink'
 import { Container } from '@/components/Container'
-import { TextField } from '@/components/Fields'
+import { GooglePlayLink } from '@/components/GooglePlayLink'
 import { Logomark } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 
@@ -37,32 +37,14 @@ export function Footer() {
                 Available on iOS and Android. Start planning better today.
               </p>
               <div className="mt-4 flex gap-3">
-                <Button href="#" className="text-sm">
-                  App Store
-                </Button>
-                <Button href="#" variant="outline" className="text-sm">
-                  Google Play
-                </Button>
+                <AppStoreLink />
+                <GooglePlayLink />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
-          <form className="flex w-full justify-center md:w-auto">
-            <TextField
-              type="email"
-              aria-label="Email address"
-              placeholder="Email address"
-              autoComplete="email"
-              required
-              className="w-60 min-w-0 shrink"
-            />
-            <Button type="submit" className="ml-4 flex-none">
-              <span className="hidden lg:inline">Join our newsletter</span>
-              <span className="lg:hidden">Join newsletter</span>
-            </Button>
-          </form>
-          <p className="mt-6 text-sm text-gray-500 md:mt-0">
+        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row md:justify-between md:pt-6">
+          <p className="text-sm text-gray-500">
             &copy; {new Date().getFullYear()} theChecklist. All rights reserved.
           </p>
           <div className="mt-6 flex gap-x-6 text-sm text-gray-500 md:mt-0">
