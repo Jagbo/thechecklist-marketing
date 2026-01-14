@@ -11,64 +11,72 @@ export default function PrivacyPage() {
                         Privacy Policy
                     </h1>
                     <p className="mt-4 text-base text-gray-600">
-                        Last updated: 19 December 2025
+                        Last updated: January 14, 2026
                     </p>
 
                     <div className="mt-16 space-y-12 text-base leading-7 text-gray-700">
                         <section>
                             <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                1. Introduction
+                                1. Information We Collect
                             </h2>
                             <p className="mt-6">
-                                At theChecklist, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website or use our app and tell you about your privacy rights and how the law protects you.
+                                We collect information you provide directly to us, such as when you create an account, 
+                                make a purchase, or contact us for support. This may include your name, email address, 
+                                and payment information.
                             </p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                2. The Data We Collect
+                                2. How We Use Your Information
                             </h2>
                             <p className="mt-6">
-                                We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:
+                                We use the information we collect to provide, maintain, and improve our services, 
+                                process transactions, send you technical notices and support messages, and respond 
+                                to your comments and questions.
                             </p>
-                            <ul className="mt-8 list-disc pl-6 space-y-2">
-                                <li><strong>Identity Data:</strong> includes first name, last name, username or similar identifier.</li>
-                                <li><strong>Contact Data:</strong> includes email address and telephone numbers.</li>
-                                <li><strong>Usage Data:</strong> includes information about how you use our website, app and services.</li>
-                                <li><strong>Interaction Data:</strong> includes your swipes and choices made within shared lists.</li>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                                3. Data Storage
+                            </h2>
+                            <p className="mt-6">
+                                Your data is stored securely using Supabase. We implement appropriate technical and 
+                                organizational measures to protect your personal information against unauthorized access, 
+                                alteration, disclosure, or destruction.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                                4. Third-Party Services
+                            </h2>
+                            <p className="mt-6">
+                                We use third-party services including:
+                            </p>
+                            <ul className="mt-4 list-disc pl-6 space-y-2">
+                                <li>RevenueCat for subscription management</li>
+                                <li>Google Mobile Ads for advertising</li>
+                                <li>Sentry for error tracking and performance monitoring</li>
+                                <li>Supabase for data storage and authentication</li>
                             </ul>
-                        </section>
-
-                        <section>
-                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                3. How We Use Your Data
-                            </h2>
-                            <p className="mt-6">
-                                We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
-                            </p>
-                            <ul className="mt-8 list-disc pl-6 space-y-2">
-                                <li>To register you as a new user and provide our services.</li>
-                                <li>To enable you to share lists and interact with other users.</li>
-                                <li>To manage our relationship with you, including notifying you about changes to our terms or privacy policy.</li>
-                                <li>To improve our website, app, marketing, and customer relationships.</li>
-                            </ul>
-                        </section>
-
-                        <section>
-                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                4. Data Security
-                            </h2>
-                            <p className="mt-6">
-                                We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know.
+                            <p className="mt-4">
+                                These services have their own privacy policies governing their collection and use of information.
                             </p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                5. Your Legal Rights
+                                5. Your Rights
                             </h2>
                             <p className="mt-6">
-                                Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, or restriction of your personal data.
+                                You have the right to access, update, or delete your personal information at any time. 
+                                You can do this through the app settings or by contacting us directly at the email address below.
+                            </p>
+                            <p className="mt-4">
+                                If you are a resident of the European Economic Area (EEA), you have additional rights under GDPR, 
+                                including the right to data portability and the right to lodge a complaint with a supervisory authority.
                             </p>
                             <p className="mt-4">
                                 If you wish to exercise any of the rights set out above, or have questions about your data, please contact us or use our dedicated <a href="/delete" className="font-semibold text-brand-accent hover:underline">data deletion tools</a>.
@@ -77,10 +85,46 @@ export default function PrivacyPage() {
 
                         <section>
                             <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                                6. Contact Us
+                                6. Data Retention
                             </h2>
                             <p className="mt-6">
-                                If you have any questions about this privacy policy or our privacy practices, please contact us at: <a href="mailto:privacy@thechecklist.london" className="font-semibold text-brand-accent hover:underline">privacy@thechecklist.london</a>
+                                We retain your personal information for as long as necessary to provide our services and 
+                                for legitimate business purposes. When you delete your account, we will delete or anonymize 
+                                your personal information within 30 days.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                                7. Children's Privacy
+                            </h2>
+                            <p className="mt-6">
+                                Our services are not directed to children under 13 years of age. We do not knowingly collect 
+                                personal information from children under 13. If you believe we have collected information from 
+                                a child under 13, please contact us immediately.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                                8. Changes to This Policy
+                            </h2>
+                            <p className="mt-6">
+                                We may update this Privacy Policy from time to time. We will notify you of any material changes 
+                                by posting the new Privacy Policy in the app and updating the "Last Updated" date above.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                                9. Contact Us
+                            </h2>
+                            <p className="mt-6">
+                                If you have any questions about this Privacy Policy, please contact us:
+                            </p>
+                            <p className="mt-4">
+                                Email: <a href="mailto:support@thechecklist.app" className="font-semibold text-brand-accent hover:underline">support@thechecklist.app</a><br />
+                                Company: AGBO Ventures LTD
                             </p>
                         </section>
                     </div>
